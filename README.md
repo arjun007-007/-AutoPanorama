@@ -7,7 +7,7 @@ This project demonstrates two approaches for automatic panorama creation. The fi
 ## Phase 1: Classical Image Stitching
 
 1. **Corner Detection**  
-   - Uses Harris Corner Detection to locate potential keypoints in grayscale images.  
+   - Used Harris Corner Detection to locate potential keypoints in grayscale images.  
    - Adaptive Non-Max Suppression (ANMS) removes redundant or duplicate corner detections.
 
 2. **Feature Descriptors & Matching**  
